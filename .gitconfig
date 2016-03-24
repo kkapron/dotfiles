@@ -13,3 +13,6 @@
 [core]
   editor = vim
   filemode = false
+
+[push]
+  default = simple
