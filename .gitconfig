@@ -1,0 +1,15 @@
+[color]
+  ui = true
+
+[alias]
+  ci = commit
+  st = status
+  undo = reset --hard
+  co = checkout
+  branches = branch -va
+  vlog = log --graph --date-order --date=relative --pretty=format:\"%C(white)%h: %Cgreen - %an - %Cred %C(cyan)%ar:%Creset%n%s%n\" --color
+  ignored = !git ls-files -v | grep "^[[:lower:]]"
+
+[core]
+  editor = vim
+  filemode = false
