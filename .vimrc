@@ -8,6 +8,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'wombat256.vim'
+Plugin 'scrooloose/nerdTree'
 
 call vundle#end()
 
